@@ -224,8 +224,8 @@ section:last-child {
 
 .tab-swiper .swiper-slide:hover img {
   filter: grayscale(0);
-  width: 105%;
-  height: 105%;
+  width: 130%;
+  height: 130%;
 }
 
 .medical-staff img {
