@@ -102,7 +102,7 @@ section:last-child {
 
 /*** #section01 ***/
 .sec01-img {
-  background: url(/images/sec01_img.jpg) no-repeat center / cover;
+  background: url(/images/sec01_bg.jpg) no-repeat center / cover;
   display: flex;
   justify-content: center;
   align-items: center;
