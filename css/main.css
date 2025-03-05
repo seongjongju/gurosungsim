@@ -184,6 +184,7 @@ section:last-child {
   font-size: 30px;
   margin-bottom: 5px;
   word-break: keep-all;
+  color: #333;
 }
 /*** #section03 ***/
 
@@ -196,12 +197,22 @@ section:last-child {
   width: fit-content;
 }
 
-.tab-swiper .swiper-slide img {
+.tab-swiper .tab-img {
   width: 130px;
   height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.tab-swiper .tab-img img {
+  width: 100%;
+  height: 100%;
   filter: grayscale(100%);
-  transition: filter 0.3s;
+  transition: all 0.3s;
 }
 
 .tab-swiper .swiper-slide p {
@@ -213,6 +224,8 @@ section:last-child {
 
 .tab-swiper .swiper-slide:hover img {
   filter: grayscale(0);
+  width: 105%;
+  height: 105%;
 }
 
 .medical-staff img {
@@ -336,7 +349,7 @@ section:last-child {
     width: 100%;
   }
 
-  .tab-swiper .swiper-slide img {
+  .tab-swiper .tab-img {
     width: 110px;
     height: 110px;
     margin-bottom: 15px;
