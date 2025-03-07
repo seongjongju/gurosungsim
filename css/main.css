@@ -51,6 +51,7 @@ section:last-child {
 }
 
 .title {
+  font-family: 'Pretendard', sans-serif;
   font-size: 40px;
   color: #333;
   font-weight: 300;
@@ -86,6 +87,7 @@ section:last-child {
   font-size: 20px;
   color: #333;
   line-height: 1.6;
+  word-break: keep-all;
 }
 
 .larzy-text {
@@ -135,10 +137,13 @@ section:last-child {
   margin-bottom: 50px;
 }
 
+.grid-item {
+  width: 100%;
+}
+
 .grid-img {
   width: 100%;
   aspect-ratio: 380 / 240;
-  background: lightblue;
 }
 
 .grid-img img {
