@@ -1,5 +1,5 @@
 body {
-  font-family: 'Pretendard', sans-serif;
+  font-family: "Pretendard", sans-serif;
 }
 
 .inner {
@@ -16,7 +16,7 @@ body {
 }
 
 .top-img {
-  width: 100%; 
+  width: 100%;
   aspect-ratio: 1920 / 400;
   min-height: 300px;
   background: fixed url(../images/sub_visual.jpg) no-repeat center / cover;
@@ -30,11 +30,19 @@ body {
   margin-bottom: 0;
 }
 
-footer img {width: 100%;}
+footer img {
+  width: 100%;
+}
 
 @media screen and (max-width: 1190px) {
   .inner {
     padding: 0 3%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .top-img {
+    background: url(../images/sub_visual.jpg) no-repeat center / cover;
   }
 }
 
@@ -52,7 +60,7 @@ section:last-child {
 }
 
 .title {
-  font-family: 'Pretendard', sans-serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 40px;
   color: #333;
   font-weight: 300;
@@ -100,7 +108,7 @@ section:last-child {
 }
 
 .bold-text {
-  font-family: 'Pretendard', sans-serif;
+  font-family: "Pretendard", sans-serif;
 }
 
 /*** #section01 ***/
@@ -334,10 +342,6 @@ section:last-child {
     margin-bottom: 15px;
   }
 
-  .sec02-container-text p br {
-    display: none;
-  }
-
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -363,6 +367,10 @@ section:last-child {
 
   .tab-swiper .swiper-slide p {
     font-size: 16px;
+  }
+
+  .br-none br {
+    display: none;
   }
 }
 
@@ -392,12 +400,8 @@ section:last-child {
     padding: 5px;
   }
 
-  .sec01-container-text .larzy-text{
+  .sec01-container-text .larzy-text {
     font-size: 15px;
-  } 
-
-  .flex-item-text p:last-child br {
-    display: none;
   }
 }
 /*********************************************** index.html *************************************/

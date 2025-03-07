@@ -1,4 +1,4 @@
-/*********************************************** disc01.html *************************************/
+/*********************************************** disc01 ~ disc08.html *************************************/
 .contents {
   padding: 50px 0;
 }
@@ -58,8 +58,13 @@
   left: 10px;
   transform: translateY(-50%);
   width: 1px;
-  height: 90%;
+  height: 87%;
   background: #b9c8e2;
+}
+
+.flex-item-list ul.list-line:before {
+  transform: translateY(-55%);
+  height: 85%;
 }
 
 .flex-item-list ul li {
@@ -253,10 +258,6 @@
 }
 
 @media screen and (max-width: 640px) {
-  .mobile-p br {
-    display: none;
-  }
-
   .flex-item02 {
     display: block;
   }
@@ -304,4 +305,4 @@
     height: 250px;
   }
 }
-/*********************************************** disc01.html *************************************/
+/*********************************************** disc01 ~ disc08.html *************************************/
