@@ -22,8 +22,14 @@
   margin-bottom: 20px;
 }
 
+.flex-item02 {
+  display: flex;
+  width: 80.225%;
+  margin: 0 auto;
+}
+
 .flex-item-img02 {
-  width: 34.189%;
+  width: 55%;
   aspect-ratio: 400 / 350;
   margin-right: 60px;
 }
@@ -176,7 +182,7 @@
 
 @media screen and (max-width: 1190px) {
   .flex-item-img02 {
-    width: 50%;
+    width: 46%;
     margin-right: 20px;
   }
 
@@ -224,6 +230,10 @@
     margin-bottom: 4%;
   }
 
+  .flex-item02 {
+    width: 100%;
+  }
+
   .grid-container02 {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
@@ -245,6 +255,10 @@
 @media screen and (max-width: 640px) {
   .mobile-p br {
     display: none;
+  }
+
+  .flex-item02 {
+    display: block;
   }
 
   .flex-item-img02 {
@@ -271,7 +285,7 @@
     height: 90px;
     margin-bottom: 4%;
   }
-  
+
   .item-list-text {
     width: 100%;
   }
@@ -282,6 +296,12 @@
 
   .item-list-text p:first-child {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .flex-item-list {
+    height: 250px;
   }
 }
 /*********************************************** disc01.html *************************************/
