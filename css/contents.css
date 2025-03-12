@@ -311,21 +311,6 @@
     height: 200px;
   }
 
-  .flex-item-list ul:before {
-    left: 4.5px;
-    height: 82%;
-  }
-
-  .flex-item-list ul li {
-    padding-left: 20px;
-  }
-
-  .flex-item-list ul li:before {
-    width: 10px;
-    height: 10px;
-    border: 2.5px solid #eef4fd;
-  }
-
   .grid-container03 {
     grid-template-columns: repeat(1, 1fr);
   }
