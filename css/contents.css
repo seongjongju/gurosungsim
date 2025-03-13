@@ -7,6 +7,12 @@
   margin-bottom: 60px;
 } 
 
+.current img { /* 현재 페이지 탭 */
+  width: 100% !important;
+  height: 100% !important;
+  filter: grayscale(0) !important;
+}
+
 .disc-bg {
   width: 100%;
   aspect-ratio: 1170 / 400;
