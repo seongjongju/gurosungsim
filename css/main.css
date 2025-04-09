@@ -77,6 +77,10 @@ section:last-child {
   font-weight: 300;
 }
 
+.small-text.letter {
+  letter-spacing: 7px;
+}
+
 .title-two {
   font-size: 30px;
   color: #02ace1;
@@ -302,6 +306,10 @@ section:last-child {
     font-size: 14px;
   }
 
+  .small-text {
+    font-size: 16px;
+  }
+
   .sec01-img {
     padding: 15px;
   }
@@ -346,6 +354,14 @@ section:last-child {
 
   .medium-text {
     font-size: 16px;
+  }
+
+  .small-text {
+    font-size: 14px;
+  }
+
+  .small-text.letter {
+    letter-spacing: 5px;
   }
 
   .sec01-container-text p {
@@ -404,6 +420,10 @@ section:last-child {
 
   .medium-text {
     font-size: 14px;
+  }
+
+  .small-text.letter {
+    letter-spacing: 4px;
   }
 
   .sec01-img {
