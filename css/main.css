@@ -1,5 +1,5 @@
 body {
-  font-family: "Pretendard", sans-serif;
+  font-family: 'Noto Sans KR';
 }
 
 .inner {
@@ -60,12 +60,16 @@ section:last-child {
 }
 
 .title {
-  font-family: "Pretendard", sans-serif;
-  font-size: 40px;
+  font-family: 'Noto Sans KR';
+  font-size: 46px;
   color: #333;
   text-align: center;
   margin-bottom: 50px;
   word-break: keep-all;
+}
+
+.title.big {
+  font-size: 54px;
 }
 
 .small-text {
@@ -73,7 +77,6 @@ section:last-child {
   font-size: 20px;
   color: #a9a9a9;
   text-align: center;
-  margin-bottom: 10px;
   font-weight: 300;
 }
 
@@ -107,7 +110,7 @@ section:last-child {
 .medium-text-two {
   font-size: 22px;
   color: #333;
-  line-height: 1.4;
+  line-height: 1.6;
   word-break: keep-all;
   text-align: center;
   margin-bottom: 50px;
@@ -122,7 +125,7 @@ section:last-child {
 }
 
 .bold-text {
-  font-family: "Pretendard", sans-serif;
+  font-family: 'Noto Sans KR';
 }
 
 /*** #section01 ***/
@@ -186,7 +189,7 @@ section:last-child {
 }
 
 .flex-item-img {
-  width: 42.736%;
+  width: 45.447%;
   aspect-ratio: 500 / 350;
   background: lightblue;
   margin-right: 40px;
@@ -206,6 +209,7 @@ section:last-child {
 
 .flex-item-text p {
   word-break: keep-all;
+  text-align: left;
 }
 
 .flex-item-text p:first-child {
@@ -289,6 +293,10 @@ section:last-child {
     margin-bottom: 7%;
   }
 
+  .title.big {
+    font-size: 44px;
+  }
+
   .title-two {
     margin-bottom: 6%;
   }
@@ -338,6 +346,10 @@ section:last-child {
 @media screen and (max-width: 640px) {
   .title {
     font-size: 26px;
+  }
+
+  .title.big {
+    font-size: 40px;
   }
 
   .title-two {
@@ -403,6 +415,10 @@ section:last-child {
 @media screen and (max-width: 500px) {
   .title {
     font-size: 22px;
+  }
+
+  .title.big {
+    font-size: 32px;
   }
 
   .title-two {
