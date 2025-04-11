@@ -391,6 +391,61 @@
   color: #002B66;
 }
 
+.table-wrap.table2 th {
+  padding: 14.5px 10px;
+}
+
+.table-wrap.table2 th:nth-child(1) {
+  width: 13%;
+  background: #929292;
+}
+
+.table-wrap.table2 th:nth-child(n+2) {
+  width: calc((100% - 13%) / 3);
+  background: #00DBE9;
+  color: #002B66;
+}
+
+.table-wrap.table2 .accent-th {
+  background: #0080FB !important;
+  color: #fff !important;
+}
+
+.table-wrap.table2 td {
+  padding: 14.5px 10px;
+}
+
+.table-wrap.table2 td:nth-child(1) {
+  background: #F9F9F9;
+  color: #333;
+}
+
+.table-wrap.table2 td:nth-child(n+2) {
+  background: #C4FBFF;
+  color: #002B66;
+}
+
+.table-wrap.table2 .accent-td {
+  background: #DAEDFF !important;
+  color: #0080FB !important;
+}
+
+.border-th {
+  position: relative;
+}
+
+.border-th:before {
+  position: absolute;
+  content: '';
+  top: -3.5px;
+  left: -3.5px;
+  width: calc(100% + 7px);
+  height: calc(394px + 7px);
+  background: transparent;
+  border: 7px solid #1E4491;
+  box-sizing: border-box;
+}
+
 .flex-item2.flex5 {
   max-width: fit-content;
   aspect-ratio: 0;
@@ -497,6 +552,10 @@
     transform: scale(0.8);
     left: 0;
   }
+
+  .border-th:before {
+    height: calc(364px + 7px);
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -550,6 +609,10 @@
 
   .flex-item2.flex3 p {
     font-size: 20px;
+  }
+
+  .border-th:before {
+    height: calc(333px + 7px);
   }
 }
 
@@ -664,6 +727,10 @@
 
   .flex-item2.flex3 p {
     font-size: 13px;
+  }
+
+  .table-wrap.table2 {
+    padding: 3.5px 0;
   }
 }
 
@@ -823,6 +890,10 @@
 
   .list.list2 li span img {
     width: 30px;
+  }
+
+  .border-th:before {
+    height: calc(310px + 7px);
   }
 }
 
@@ -988,6 +1059,11 @@
   height: 70px;
   background: #F1F6FF;
   box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 6px;
+}
+
+.grid-container05.grid3 {
+  max-width: 1110px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .hashtag-wrap {
@@ -1160,7 +1236,12 @@
   }
 
   .grid-container05 {
-    gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+
+  .grid-container05.grid3 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /*********************************************** surgery01 ~ surgery10.html *******************************/
