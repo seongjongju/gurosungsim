@@ -1,3 +1,3 @@
-@import url('common.css');
-@import url('main.css');
-@import url('contents.css');
+@import url('common.css'); /* 리셋파일 */
+@import url('main.css'); /* index.html, 공용 */
+@import url('contents.css'); /* disc01.html ~ disc08.html, surgery01.html ~ surgery10.html */

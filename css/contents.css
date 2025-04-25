@@ -306,6 +306,10 @@
   aspect-ratio: 576 / 356;
 }
 
+.flex-item2.flex3 .flex-img img {
+  height: auto;
+}
+
 .flex-item2.flex4 {
   display: flex;
   align-items: center;
